@@ -1,0 +1,68 @@
+@import url('style.css');
+
+.data-box {
+    margin: 20px auto;
+    inline-size: 90%;
+    background: rgba(0, 51, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-block-size: 300px;
+}
+
+table.container {
+    inline-size: 100%;
+    border-collapse: collapse;
+    margin-block-end: 1rem;
+}
+
+table.container th, table.container td {
+    padding: 10px 20px;
+    text-align: center;
+    border-block-end: 1px solid #ddd;
+}
+
+table.container th {
+    background: rgba(0, 51, 255, 0.1);
+    color: white;
+}
+
+table.container tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.warning {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+    background: rgba(0, 51, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px auto;
+    inline-size: 90%;
+}
+
+.chart-container {
+    inline-size: 90%;
+    margin: 20px auto;
+    background: rgba(117, 143, 247, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+canvas {
+    inline-size: 100% !important;
+    block-size: auto !important;
+}
+
+.peta {
+    inline-size: 90%;
+    margin: 20px auto;
+    background: rgba(0, 51, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
